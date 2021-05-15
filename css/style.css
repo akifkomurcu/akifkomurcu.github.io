@@ -1,0 +1,79 @@
+html,body
+{   margin:0; 
+    padding:0; 
+    height:100vh; 
+    width: 100%;
+    background-color: #121414;
+}
+#resim
+{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 40px;
+    border: 5px solid grey;
+}
+
+.container__main
+{
+    font-family: 'Antonio', sans-serif;
+    font-size: 40px;
+    padding-left: 30px;
+    color: #808080;
+}
+#komurcu
+{
+    color:  #e2d3d3
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh; 
+    width:100%; 
+    
+}
+
+.container__sidebar {
+    width: 230px;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.container__main {
+    flex: 1;
+    overflow: auto;
+}
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-linkedin {
+    background: #808080;
+    color: #121414;
+  }
+  .fa-instagram {
+    background: #808080;
+    color: #121414;
+  }
+  .fa-twitter {
+    background: #808080;
+    color: #121414;
+  }
+  .social
+  {
+      padding-top: 10px;
+  }
