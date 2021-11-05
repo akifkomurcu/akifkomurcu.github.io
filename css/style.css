@@ -3,7 +3,7 @@ html,body
     padding:0; 
     height:100vh; 
     width: 100%;
-    background-color: #ffffff;
+    background-color: #12200d;
     /* background-color: #ad8888; */
 }
 #resim
@@ -24,7 +24,7 @@ html,body
 }
 #komurcu
 {
-    color:  #e2d3d3
+    color:  #55a730
 
 }
 .container {
@@ -39,10 +39,11 @@ html,body
 .container__sidebar {
     width: 230px;
     height: 100%;
-    background-color: rgb(53, 50, 50);
+    background-color: #000000;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 15px;
    
 }
 
@@ -63,15 +64,15 @@ html,body
       opacity: 0.4;
   }
   .fa-linkedin {
-    background: #806262;
+    background: #2c4e20;
     color: #121414;
   }
   .fa-instagram {
-    background: #806262;
+    background: #2c4e20;
     color: #121414;
   }
   .fa-twitter {
-    background: #806262;
+    background: #2c4e20;
     color: #121414;
   }
   .social
