@@ -3,7 +3,7 @@ html,body
     padding:0; 
     height:100vh; 
     width: 100%;
-    background-color: #12200d;
+    background-color: #000000;
     /* background-color: #ad8888; */
 }
 #resim
@@ -17,14 +17,22 @@ html,body
 
 .container__main
 {
-    font-family: 'Antonio', sans-serif;
-    font-size: 40px;
+    font-family: 'Lora', serif;
+    font-size: 60px;
     padding-left: 30px;
     color: #000000;
 }
 #komurcu
 {
-    color:  #55a730
+    color:  #ffffff;
+    /* font-weight: bold; */
+    
+
+}
+.info{
+    color: white;
+    font-size: 26px;
+    
 
 }
 .container {
@@ -35,6 +43,13 @@ html,body
     width:100%; 
     
 }
+.about{
+    
+    font-size: 20px;
+    max-width: 900px;
+    margin-top: 15px;
+
+}
 
 .container__sidebar {
     width: 230px;
@@ -44,38 +59,48 @@ html,body
     justify-content: center;
     align-items: center;
     margin-right: 15px;
-   
+    padding-bottom: 100px;
 }
 
 .container__main {
     flex: 1;
     overflow: auto;
+    color: white;
 }
 .fa {
     padding: 15px;
     font-size: 30px;
     width: 40px;
+    height: 25px;
     text-align: center;
     text-decoration: none;
-    border-radius: 25%;
+    border-radius: 20%;
   }
   
   .fa:hover {
       opacity: 0.4;
   }
   .fa-linkedin {
-    background: #2c4e20;
-    color: #121414;
+    background: #791724;
+    color: #ffffff;
   }
   .fa-instagram {
-    background: #2c4e20;
-    color: #121414;
+    background: #791724;
+    color: #ffffff;
   }
   .fa-twitter {
-    background: #2c4e20;
-    color: #121414;
+    background: #791724;
+    color: #ffffff;
   }
   .social
   {
-      padding-top: 10px;
+      margin-top: 15px;
+  }
+  .cv{
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  .cv a{
+      color: white;
+      text-decoration:none
   }
