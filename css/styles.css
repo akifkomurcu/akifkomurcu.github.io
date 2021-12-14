@@ -11372,7 +11372,7 @@ p.lead {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid black;
+    border: 0.3rem solid gray;
   }
   #sideNav .navbar-collapse {
     display: flex;
