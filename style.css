@@ -23,7 +23,7 @@ a:visited {
 a:hover {
     color: #ffffff;
     background-color: rgba(46, 46, 45, 0.555);
-    text-decoration: underline;
+ 
 }
 .ulist li{
     text-decoration: none;
