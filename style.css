@@ -1,0 +1,60 @@
+body{
+    background: rgb(17, 17, 17);
+    color: white;
+
+    font-family: 'VT323', monospace;
+    font-size: 40px;
+}
+.akif{
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: red;
+}
+a:link {
+    color: #ffffff;    
+    text-decoration: none;
+}
+a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+a:hover {
+    color: #ffffff;
+    background-color: rgba(46, 46, 45, 0.555);
+    text-decoration: underline;
+}
+.ulist li{
+    text-decoration: none;
+    display: inline;
+    list-style-type:none;
+}
+.ortala{
+    display: flex;
+    justify-content: center;
+}
+.ortalayatay{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#picture{
+    border-radius: 100%;
+    border: 4px solid black;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+}
+.card {
+    background: #000000d0;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+
+
+  }
+  .social>ul>li{
+      margin-left: 3px;
+  }
+ 
