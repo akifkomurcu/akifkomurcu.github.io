@@ -34,6 +34,11 @@ a:hover {
     display: flex;
     justify-content: center;
 }
+.main{
+
+    width: 700px;
+
+}
 .ortalayatay{
     display: flex;
     justify-content: center;
@@ -60,6 +65,7 @@ a:hover {
  
 @media (min-width: 100px)  {
 
+    
     .ulist li{
         display:block; 
     }
@@ -67,6 +73,9 @@ a:hover {
 }
 @media (min-width: 463px)  {
 
+    .main{
+        text-align: center;
+    }
     .ulist li{
         display:inline;
     }
