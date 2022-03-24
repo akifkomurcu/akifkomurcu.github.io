@@ -55,7 +55,7 @@ a:hover {
 
 #picture {
     border-radius: 100%;
-    border: 4px solid black;
+    border: 4px solid rgba(65, 63, 63, 0.898);
     margin: auto;
     width: 200px;
     height: 200px;
