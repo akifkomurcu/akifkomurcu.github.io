@@ -81,7 +81,7 @@ a:hover {
     height: 200px;
 }
 
-.card {
+.cardmain{
     background: #000000d0;
     color: white;
     padding: 2em;
@@ -149,4 +149,35 @@ a:hover {
 }
 .msa{
     margin: 0 auto;
+}
+
+.cards {
+   
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px 1px;
+  }
+
+.card-img-top:hover{
+     transition: transform .2s; /* Animation */
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.card{
+    width: 400px;
+    height: 420px;
+    text-align: center;
+    background-color: black;
+    border: 1px solid grey;
+}
+.card-img-top{
+    background-color: white;
+}
+.card-body{
+    font-size: 25px;
+    color: white;
+}
+.btn{
+    font-size: 15px;
 }
