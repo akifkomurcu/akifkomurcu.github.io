@@ -13,27 +13,7 @@ body {
     text-align: center;
     color: red;
 }
-.layout {
-    width: 100%;
-  
-    display: grid;
-    grid:
-      "sidebar body" 0fr
-      "project1 project1-check" 0fr
-      ". ." 0fr
-      ". ." 0fr
-      ". ." 0fr
-      ". ." 0fr
-      ". ." 0fr
-      ". ." 0fr
-      / 8fr 2fr;
-    gap: 8px;
-  }
-  
-  .sidebar { grid-area: sidebar; padding-left: 100px;}
-  .body { grid-area: body; margin: 0 auto;}
-  .projects{padding-left: 100px;}
-  .lastproject{padding-bottom: 100px;}
+
 a:link {
     color: #ffffff;
     text-decoration: none;
@@ -113,27 +93,17 @@ a:hover {
     .ulist li {
         display: inline;
     }
+    .Projects{
+        display: flex;
+        justify-content: center;
+    }
 
 }
 @media (max-width: 500px) {
   
-    .layout{
-        width: 100%;
-        margin: 0 auto;
-    }
 
-
-    .projects {
-        width: auto;
-        float: left;
-        font-size:25px;
-        padding-left: unset;
-        margin-left: 15px;
-    }
-
-    .projects-check p{
-        font-size: 25px;
-    }
+    
+    
 
 }
 .heart{
@@ -151,20 +121,14 @@ a:hover {
     margin: 0 auto;
 }
 
-.cards {
-   
-    width: 100%;
-    display: grid;
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px 1px;
-  }
 
 .card-img-top:hover{
      transition: transform .2s; /* Animation */
     transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 .card{
+    margin: 15px;
+    padding: 5px;
     width: 400px;
     height: 420px;
     text-align: center;
