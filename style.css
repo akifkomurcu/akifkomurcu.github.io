@@ -100,12 +100,8 @@ a:hover {
     }
 
 }
-@media (max-width: 500px) {
-  
-
-    
-    
-
+.card-title{
+    font-size: 30px;
 }
 .heart{
 
@@ -136,11 +132,9 @@ a:hover {
     background-color: black;
     border: 1px solid grey;
 }
-.card-img-top{
-    background-color: white;
-}
+
 .card-body{
-    font-size: 25px;
+    font-size: 22px;
     color: white;
 }
 .btn{
