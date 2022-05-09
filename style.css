@@ -40,6 +40,7 @@ a:hover {
 .ortala {
     display: flex;
     justify-content: center;
+
 }
 
 .main {
@@ -105,8 +106,8 @@ a:hover {
 }
 .heart{
 
-    width: 90px;
-    height: 60px;
+    width: 80px;
+    height: 70px;
     margin: 0 auto;
     margin-top: 60px;
     margin-bottom: 185px;
