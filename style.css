@@ -1,9 +1,8 @@
 body {
   background: rgb(17, 17, 17);
   color: white;
-  font-family: Menlo, "Roboto Mono", monospace;
   font-size: 40px;
-  line-height: 30px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .akif {
@@ -33,6 +32,7 @@ a:hover {
 
 .ulist li {
   text-decoration: none;
+  margin-right: 10px;
   display: inline;
   list-style-type: none;
 }
@@ -47,6 +47,7 @@ a:hover {
 }
 
 .ortalayatay {
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   text-align: center;
