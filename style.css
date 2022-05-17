@@ -131,3 +131,30 @@ a:hover {
 .btn {
   font-size: 15px;
 }
+.ml6 {
+  position: relative;
+}
+
+.ml6 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.ml6 .letter {
+  display: inline-block;
+}
+.ml10 {
+  position: relative;
+}
+
+.ml10 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.ml10 .letter {
+  display: inline-block;
+  transform-origin: 0 0;
+}
