@@ -10,13 +10,13 @@ anime.timeline({ loop: false })
         delay: (el, i) => 50 * i
     })
 
-var textWrapper = document.querySelector('.ml10 .letters');
-textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+// var textWrapper = document.querySelector('.ml10 .resume');
+// textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='resume'>$&</span>");
 
-anime.timeline({ loop: false })
-    .add({
-        targets: '.ml10 .letter',
-        rotateY: [-90, 0],
-        duration: 800,
-        delay: (el, i) => 7 * i
-    })
+// anime.timeline({ loop: false })
+//     .add({
+//         targets: '.ml10 .resume',
+//         rotateY: [-90, 0],
+//         duration: 800,
+//         delay: (el, i) => 7 * i
+//     })
