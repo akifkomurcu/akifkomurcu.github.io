@@ -1,22 +1,27 @@
-var textWrapper = document.querySelector('.ml6 .letters');
-textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+import projects from "./projects.json" assert { type: "json" };
 
-anime.timeline({ loop: false })
-    .add({
-        targets: '.ml6 .letter',
-        translateY: ["1.1em", 0],
-        translateZ: 0,
-        duration: 750,
-        delay: (el, i) => 50 * i
-    })
+const main = document.querySelector('.Projects');
 
-// var textWrapper = document.querySelector('.ml10 .resume');
-// textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='resume'>$&</span>");
+function set() {
+    projects.map((project) => (
+        main.innerHTML +=
+        `<div class="card col-xs-6 col-sm-4 col-lg-4">
+        <img
+          class="card-img-top"
+          src="${project.img}"
+          alt="Card image cap"
+        />
+        <div class="card-body">
+          <h5 class="card-title">${project.name}</h5>
+          <p class="card-text">
+          ${project.title}
+          </p>
+          <a target="_blank"
+            href="${project.link}"
+            class="btn btn-primary"
+            >Examine (live)</a>
+        </div>`
+    ))
 
-// anime.timeline({ loop: false })
-//     .add({
-//         targets: '.ml10 .resume',
-//         rotateY: [-90, 0],
-//         duration: 800,
-//         delay: (el, i) => 7 * i
-//     })
+}
+set()

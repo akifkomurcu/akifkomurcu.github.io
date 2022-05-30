@@ -1,0 +1,82 @@
+[
+    {
+        "id": "1",
+        "name":"ReactJS WeatherApp",
+        "title":"Shows the 7 days weather of the selected city.",
+        "link":"https://akifzsche-weatherapp.herokuapp.com/",
+        "img":"./img/weather-app-react.png"
+    },
+    {
+        "id": "2",
+        "name":"ReactJS Covid-19 Tracker",
+        "title":"Shows the Covid-19 cases of the selected country.",
+        "link":"https://akifkomurcu-covid.netlify.app/",
+        "img":"./img/covid-tracker.png"
+
+    },
+    {
+        "id": "3",
+        "name":"Redux To-do list",
+        "title":"To-do list app. Redux was used for state management in this project.",
+        "link":"https://akifzsche-todo-redux.herokuapp.com/",
+        "img":"./img/todo-app-redux.png"
+        
+    },
+    {
+        "id": "4",
+        "name":"ReactJS Notes App",
+        "title":"Redux is used for state management. LocalStorage was used for user experience.",
+        "link":"https://akifzsche-noteapp.herokuapp.com/",
+        "img":"./img/notes-app-redux.png"
+    },
+    {
+        "id": "5",
+        "name":"JavaScript Planner",
+        "title":"You can make a daily, weekly and monthly plan and delete it when completed.",
+        "link":"https://akifzsche.github.io/planner",
+        "img":"./img/planner-js.png"
+    },
+    {
+        "id":"6",
+        "name":"JavaScript Weather App",
+        "title":"Daily weather forecast.",
+        "link":"https://akifzsche.github.io/weather-app/",
+        "img":"./img/weather-app-js.png"
+    },
+    {
+        "id":"7",
+        "name":"ReactJS Search App",
+        "title":"Data search and sort app. Written without libraries.",
+        "link":"https://akifkomurcu-tesodev-case.netlify.app/",
+        "img":"./img/searchApp.png"
+    },
+    {
+        "id":"8",
+        "name":"Redux Contacts App",
+        "title":"You can add, edit and delete contacts.",
+        "link":"https://akifzsche-contacts-app.netlify.app/",
+        "img":"./img/ContactsApp.png"
+    },
+    {
+        "id":"9",
+        "name":"Markdown Previewer",
+        "title":"ReactJS Markdown Previewer.",
+        "link":"https://akifkomurcu-markdown-previewer.netlify.app/",
+        "img":"./img/markdown.png"
+    },
+    {
+        "id":"10",
+        "name":"Text Generator App",
+        "title":"ReactJS Text Generator App.",
+        "link":"https://akifkomurcu-textgenerator.netlify.app/",
+        "img":"./img/text-generator.png"
+    },
+    {
+        "id":"11",
+        "name":"ReactJS Chat App",
+        "title":"Backend written with NodeJS Express.",
+        "link":"https://github.com/akifzsche/chat-app-reactjs",
+        "img":"./img/source-code.png"
+    }
+
+]
