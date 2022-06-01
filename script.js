@@ -1,11 +1,12 @@
 import projects from "./projects.json" assert { type: "json" };
 
-const main = document.querySelector('.Projects');
+
 
 function set() {
-    projects.map((project) => (
-        main.innerHTML +=
-        `<div class="card col-xs-6 col-sm-4 col-lg-4">
+
+  projects.map((project) => (
+    main.innerHTML +=
+    `<div class="card col-xs-6 col-sm-4 col-lg-4 box">
         <img
           class="card-img-top"
           src="${project.img}"
@@ -21,7 +22,9 @@ function set() {
             class="btn btn-primary"
             >Examine (live)</a>
         </div>`
-    ))
+
+  ))
 
 }
-set()
+
+// set()

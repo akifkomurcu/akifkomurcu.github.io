@@ -131,30 +131,20 @@ a:hover {
 .btn {
   font-size: 15px;
 }
-.ml6 {
-  position: relative;
-}
 
-.ml6 .text-wrapper {
-  position: relative;
-  display: inline-block;
-  overflow: hidden;
-}
+.box {
+  color: blanchedalmond;
 
-.ml6 .letter {
-  display: inline-block;
+  background-color: black;
+  height: 400px;
+  width: 400px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+  transform: translateZ(20px);
 }
-.ml10 {
-  position: relative;
-}
-
-.ml10 .text-wrapper {
-  position: relative;
-  display: inline-block;
-  overflow: hidden;
-}
-
-.ml10 .resume {
-  display: inline-block;
-  transform-origin: 0 0;
+.seemore {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
 }
