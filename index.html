@@ -24,12 +24,12 @@
       <div class="col-12 akif">akifzsche</div>
     </div>
     <div class="mb-3">
-      <img id="picture" src="./img/resim.jpg" class="ortala" />
+      <img id="picture" src="./img/resim.png" class="ortala" />
     </div>
     <div class="about ortala mb-3">
       <div class="mb-3 ortalayatay">
         Hey there
-        <img style="width: 50px;height: 50px; padding: 3px; margin: 0 8px 0 8px;" src="./img/handshake.png" alt="handshake" />
+        <img class="handshake" src="./img/handshake.png" alt="handshake" />
         I'm Akif
         <!-- <img style="height: 50px" src="./img/Programmer Day - Porforever.gif" /> -->
       </div>
@@ -67,7 +67,7 @@
     </section>
 
     <div class="row Projects">
-      <div class="card col-xs-6 col-sm-4 col-lg-4 box">
+      <div class="card col-xs-6 col-sm-4 col-lg-4 ">
         <img class="card-img-top" src="./img/covid-tracker.png" alt="Card image cap" />
         <div class="card-body">
           <h5 class="card-title"> Covid-19 Tracker</h5>
@@ -112,17 +112,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <script type="module" src="./script.js"></script>
     <script src="./animation.js"></script>
-    <script type="text/javascript" src="./vanilla-tilt.js"></script>
-    <script type="text/javascript">
-      const main = document.querySelector('.Projects');
-      VanillaTilt.init(document.querySelector(".box"), {
-        max: 25,
-        speed: 400,
-      });
 
-      //It also supports NodeList
-      VanillaTilt.init(document.querySelectorAll(".box"));
-    </script>
 </body>
 
 </html>

@@ -71,10 +71,23 @@ a:hover {
 .social > ul > li {
   margin-left: 3px;
 }
-
+.card-img-top {
+  transition: transform 0.5s;
+}
 @media (min-width: 100px) {
   .ulist li {
     display: block;
+  }
+  .handshake {
+    display: none;
+  }
+  .card-img-top:hover {
+    transition: transform 0s; /* Animation */
+    transform: scale(
+      0
+    ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  .box {
   }
 }
 
@@ -82,13 +95,21 @@ a:hover {
   .main {
     text-align: center;
   }
-
   .ulist li {
     display: inline;
   }
   .Projects {
     display: flex;
     justify-content: center;
+  }
+}
+@media (min-width: 500px) {
+  .handshake {
+    display: unset;
+    width: 50px;
+    height: 50px;
+    padding: 3px;
+    margin: 0 8px 0 8px;
   }
 }
 .card-title {
@@ -123,6 +144,12 @@ a:hover {
   background-color: black;
   border: 1px solid grey;
 }
+.handshake {
+  width: 50px;
+  height: 50px;
+  padding: 3px;
+  margin: 0 8px 0 8px;
+}
 
 .card-body {
   font-size: 22px;
@@ -132,17 +159,6 @@ a:hover {
   font-size: 15px;
 }
 
-.box {
-  color: blanchedalmond;
-
-  background-color: black;
-  height: 400px;
-  width: 400px;
-  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-  transform-style: preserve-3d;
-  transform: perspective(1000px);
-  transform: translateZ(20px);
-}
 .seemore {
   padding: 50px;
   display: flex;
